@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav id="navbar-header" class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -56,8 +56,8 @@
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
+                                        onclick="event.preventDefault();
+                                                    document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -77,17 +77,11 @@
         </main>
     </div>
 
-    <footer class="container footer">
-        <div class="card bg-dark">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-                <h5 class="card-title">Footer Test</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text">Last updated 3 mins ago</p>
+    <footer class="footerdemerde bg-secondary">
+            <div class="container text-center">
+                <span class="text-danger">© Copyright 2019</span><span class="text-warning"> <b>LARAVEL, Alex.</b></span>
             </div>
-        </div>
     </footer>
-
 
 </body>
 </html>

@@ -10,10 +10,36 @@
 @import '~bootstrap/scss/bootstrap';
 
 .navbar-laravel {
-    background-color: #fff;
+    background-color: #005b96;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 body {
-    background-color: #FDF1E0;
+    background-color: #EEE8D7;
+}
+
+#navbar-header {
+    background-color: red;
+}
+
+.footerdemerde {
+    margin-top: 150px;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+input.form-control::placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+.divinscription {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.btnenvoyer {
+    border-radius: 5px;
+    color: rgb(200, 16, 16);
+    background: radial-gradient(#21a3ee, #3f87a6);
+    border:  #40484d96 solid;
 }
