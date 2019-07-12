@@ -31,6 +31,20 @@ body {
 input.form-control::placeholder {
     color: red;
     font-weight: bold;
+    text-align: center;
+    font-size: 1.6rem;
+    @media screen and (max-width: 740px){
+        font-size: 1.3rem;
+        @media screen and (max-width: 540px){
+            font-size: 0.9rem;
+            @media screen and (max-width: 351px){
+                font-size: 0.65rem;
+                @media screen and (max-width: 273px){
+                    font-size: 0.4rem;
+                }
+            }
+        }
+    }
 }
 
 .divinscription {
@@ -42,4 +56,24 @@ input.form-control::placeholder {
     color: rgb(200, 16, 16);
     background: radial-gradient(#21a3ee, #3f87a6);
     border:  #40484d96 solid;
+    @media screen and (max-width: 740px){
+        font-size: 1rem;
+        @media screen and (max-width: 540px){
+            font-size: 0.7rem;
+            @media screen and (max-width: 351px){
+                font-size: 0.5rem;
+                @media screen and (max-width: 273px){
+                    font-size: 0.2rem;
+                }
+            }
+        }
+    }
+
+}
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.forminscription{
+    padding-bottom: 20px;
 }

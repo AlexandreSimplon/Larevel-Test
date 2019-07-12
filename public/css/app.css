@@ -11130,26 +11130,108 @@ body {
 input.form-control::-webkit-input-placeholder {
   color: red;
   font-weight: bold;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 input.form-control::-moz-placeholder {
   color: red;
   font-weight: bold;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 input.form-control:-ms-input-placeholder {
   color: red;
   font-weight: bold;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 input.form-control::-ms-input-placeholder {
   color: red;
   font-weight: bold;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 input.form-control::placeholder {
   color: red;
   font-weight: bold;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 740px) {
+  input.form-control::-webkit-input-placeholder {
+    font-size: 1.3rem;
+  }
+  input.form-control::-moz-placeholder {
+    font-size: 1.3rem;
+  }
+  input.form-control:-ms-input-placeholder {
+    font-size: 1.3rem;
+  }
+  input.form-control::-ms-input-placeholder {
+    font-size: 1.3rem;
+  }
+  input.form-control::placeholder {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 740px) and (max-width: 540px) {
+  input.form-control::-webkit-input-placeholder {
+    font-size: 0.9rem;
+  }
+  input.form-control::-moz-placeholder {
+    font-size: 0.9rem;
+  }
+  input.form-control:-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  input.form-control::-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  input.form-control::placeholder {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 740px) and (max-width: 540px) and (max-width: 351px) {
+  input.form-control::-webkit-input-placeholder {
+    font-size: 0.65rem;
+  }
+  input.form-control::-moz-placeholder {
+    font-size: 0.65rem;
+  }
+  input.form-control:-ms-input-placeholder {
+    font-size: 0.65rem;
+  }
+  input.form-control::-ms-input-placeholder {
+    font-size: 0.65rem;
+  }
+  input.form-control::placeholder {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 740px) and (max-width: 540px) and (max-width: 351px) and (max-width: 273px) {
+  input.form-control::-webkit-input-placeholder {
+    font-size: 0.4rem;
+  }
+  input.form-control::-moz-placeholder {
+    font-size: 0.4rem;
+  }
+  input.form-control:-ms-input-placeholder {
+    font-size: 0.4rem;
+  }
+  input.form-control::-ms-input-placeholder {
+    font-size: 0.4rem;
+  }
+  input.form-control::placeholder {
+    font-size: 0.4rem;
+  }
 }
 
 .divinscription {
@@ -11162,5 +11244,38 @@ input.form-control::placeholder {
   color: #c81010;
   background: radial-gradient(#21a3ee, #3f87a6);
   border: #40484d96 solid;
+}
+
+@media screen and (max-width: 740px) {
+  .btnenvoyer {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 740px) and (max-width: 540px) {
+  .btnenvoyer {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 740px) and (max-width: 540px) and (max-width: 351px) {
+  .btnenvoyer {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 740px) and (max-width: 540px) and (max-width: 351px) and (max-width: 273px) {
+  .btnenvoyer {
+    font-size: 0.2rem;
+  }
+}
+
+.form-control {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.forminscription {
+  padding-bottom: 20px;
 }
 
